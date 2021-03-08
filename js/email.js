@@ -8,7 +8,7 @@ function sendMail() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: "bhavyajoshi2000@gmail.com",
-        Password: "Stuart@2022",
+        Password: "",
         To: 'joshibhavya2000@gmail.com',
         From: "bhavyajoshi2000@gmail.com",
         Subject: "New mail on contact form from: " + name,
