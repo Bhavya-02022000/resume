@@ -647,7 +647,8 @@
                                         then on the basis of training the whole dataset will work on the algorithm and
                                         will generate files containg unique records and similar records clustered.
                                         <br>Records such as A kumar, Akshay k, Akshay Kumar will be considered as same
-                                        record if other attributes are also similar.</p>
+                                        record if other attributes are also similar.
+                                    </p>
                                 </div>
                                 <div class="info">
                                     <h3>Project info</h3>
@@ -847,23 +848,24 @@
             </div>
             <div class="row">
                 <div class="contact-form">
-                    <form action="javascript:sendMail()" method="POST" id="myForm">
+                    <!-- <form action="javascript:sendMail()" method="POST" id="myForm"> -->
+                    <form action="https://formspree.io/joshibhavya2000@gmail.com" method="POST" id="myForm">
                         <div class="row">
                             <div class="w-50">
                                 <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="text" placeholder="Name" class="input-control" id="name" required>
+                                    <input type="text" placeholder="Name" class="input-control" id="name" name="name" required>
                                 </div>
                                 <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="email" placeholder="Email" class="input-control" id="email" required>
+                                    <input type="email" placeholder="Email" class="input-control" id="email" name="email" required>
                                 </div>
                                 <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="text" placeholder="Subject" class="input-control" id="subject"
+                                    <input type="text" placeholder="Subject" class="input-control" id="subject" name="subject"
                                         required>
                                 </div>
                             </div>
                             <div class="w-50">
                                 <div class="input-group outer-shadow hover-in-shadow">
-                                    <textarea name="msg" class="input-control" placeholder="Message" id="message"
+                                    <textarea name="msg" class="input-control" placeholder="Message" id="message" name="message"
                                         required></textarea>
                                 </div>
                             </div>
