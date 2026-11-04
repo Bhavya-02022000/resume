@@ -3396,6 +3396,15 @@ readers do not read off random characters that represent icons */
 .fa-search:before {
   content: "\f002"; }
 
+.fa-users-gear:before {
+  content: "\f508"; }
+
+.fa-shield-halved:before{
+  content: "\f3ed"; }
+
+.fa-diagram-project:before{
+  content: "\f542"; }
+
 .fa-search-dollar:before {
   content: "\f688"; }
 
